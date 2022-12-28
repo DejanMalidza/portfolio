@@ -12,22 +12,22 @@ const Footer = ({ currentTheme }) => {
                     {userinfo.socials ?
                         userinfo.socials.map((social, key) => {
                             return (
-                                <Link href={social.link} key={key}><a><li>{social.type}</li></a></Link>
+                                <Link href={social.link} key={key}><a target="_blank"><li>{social.type}</li></a></Link>
                             )
                         }) : null
                     }
-                    <Link href={`mailto:${userinfo.contact.email ? userinfo.contact.email : ''}`}><a><li>Mail</li></a></Link>
+                    <Link href={`mailto:${userinfo.contact.email ? userinfo.contact.email : 'dejanmalidza@gmail.com'}`}><a><li>Mail</li></a></Link>
                 </ul>
                 <ul>
                     <li className={styles.listHeading}>Pages</li>
                     <Link href='/'><a><li>Home</li></a></Link>
                     <Link href='/#about'><a><li>About</li></a></Link>
-                    <Link href='/work'><a><li>Work</li></a></Link>
+                    <Link href='/work'><a><li>Projects</li></a></Link>
                     <Link href='/contact'><a><li>Contact</li></a></Link>
                 </ul>
             </div>
             <hr style={{ height: '1px', backgroundColor: currentTheme.subtext, border: 'none', opacity: '0.5' }}></hr>
-            <h2 className={styles.footercontent}>Template by Asavari Ambavane</h2>
+            <h2 className={styles.footercontent}>Template by Carmine Cloak</h2>
         </div>
     )
 }

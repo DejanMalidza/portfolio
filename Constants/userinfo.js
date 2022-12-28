@@ -1,72 +1,73 @@
 //PLEASE FOLLOW THE FORMAT OF THIS FILE.
 
 import { faGithubAlt, faLinkedinIn, faMediumM, faFacebook, faTwitter, faInstagram, faYoutube, faBehance } from "@fortawesome/free-brands-svg-icons"
+import image from '../styles/projects/disruptive.jpg';
 
 export const userinfo = {
-    logoText: "Michael Scott", //This text is visible on your navbar and footer like your logo.
+    logoText: "Dejan Malidza", //This text is visible on your navbar and footer like your logo.
     contact: {
-        email: 'michaelscott@email.com', //It is always a good idea to mention your email on your website. Good platform to communicate.
-        phone: '1234567890', //Phone number is optional, if you dont want it, consider leaving it blank .
-        countrycode: '+91' //It is advisable to add the country code incase you mention your contact number.
+        email: 'dejanmalidza@gmail.com', //It is always a good idea to mention your email on your website. Good platform to communicate.
+        phone: '645000310', //Phone number is optional, if you dont want it, consider leaving it blank .
+        countrycode: '+381' //It is advisable to add the country code incase you mention your contact number.
     },
     socials: [
         //For aesthetics, it is advisable for you to mention upto 4 social media links only. Fill in the links.
         //more icons are imported above, use as you like them.
-        { type: 'github', link: '', icon: faGithubAlt },
-        { type: 'linkedin', link: '', icon: faLinkedinIn },
-        { type: 'medium', link: '', icon: faMediumM },
+        { type: 'github', link: 'https://github.com/DejanMalidza', icon: faGithubAlt },
+        { type: 'linkedin', link: 'https://www.linkedin.com/in/dejan-malidza/', icon: faLinkedinIn },
+        { type: 'instagram', link: 'https://www.instagram.com/dejanmalidza/', icon: faInstagram },
     ],
     greeting: {
         //this text goes on your landing page
-        title: "Hey there, I am Michael.",
-        subtitle: "Michael Gary Scott is a fictional character in NBC's The Office, portrayed by Steve Carell. Michael is the protagonist of the series, serving as the Regional Manager of the Scranton branch of a paper distribution company, Dunder Mifflin Inc. Also, that's what she said!"
+        title: "Hey there, I am Dejan.",
+        subtitle: "I am CEO at Carmine Cloak DOO, which provides design and programming services. In addition to managerial work, I perform tasks related to front-end development."
     },
     capabilities: [
         //this text goes on your home page in table format.
         //For aesthetics, it is advisable for you to mention upto 4 catgeories links only.
         //For aesthetics, it is advisable for you to keep similar number of skills in each category
         {
-            category: "Category", // eg.frontend, backend, devops etc
-            skills: ["Skillset1", "Skillset1", "Skillset1"] //eg. react, html, python etc.
+            category: "Manager", // eg.frontend, backend, devops etc
+            skills: ["Good Organisation", "Comprehension", "Adaptive To Changes"] //eg. react, html, python etc.
         },
         {
-            category: "Category",
-            skills: ["Skillset2", "Skillset2", "Skillset2"]
+            category: "Frontend",
+            skills: ["JavaScript", "React", "Next.js", "Wordpress"]
         },
         {
-            category: "Category",
-            skills: ["Skillset3", "Skillset3", "Skillset3"]
+            category: "Finance Analyst",
+            skills: ["Presentation Skills", "Accounting Skills", "Financial Literacy skills"]
         },
         {
-            category: "Category",
-            skills: ["Skillset4", "Skillset4", "Skillset4"]
+            category: "Other Skills",
+            skills: ["Web3", "Node.js", "MongoDB", "SEO Optimization"]
         },
     ],
     about: {
         //this text goes at the bottom of your home page.
-        content: "'Do I need to be liked? Absolutely not. I like to be liked. I enjoy being liked. I have to be liked. But it’s not like this compulsive need like my need to be praised.' Whatever the situation or conflict might be, it can almost always be traced back to this need. His conference room characters, fun runs, and copious amounts of office parties are all aimed at his need to be praised.",
+        content: "I think I'm good, but I'm definitely an enterprising person. I try to be positive, as much as today's time allows, but because of that I put a lot of emphasis on good interpersonal relationships. I am punctual and a perfectionist. If I get a chance and trust, I know how to use it in the best possible way. I always try to do my job right and I am ready to listen to everyone's problems, both private and business. In my opinion, if you are surrounded by good people any job will get done.",
         resume: "/" //link your resume here. it can be drive link or any other link
     },
     education: {
         visible: true, //set this to false if you want to omit this section
         educationList: [
             {
-                time: 'May - Oct 2020', //timespan
-                title: 'Degree name', //eg. BTech in Compuster Engineering
-                organization: 'School Name', //eg. VJTI, Mumbai
-                description: 'Lorem ipsum dolor sit amet consectetur' //eg. secured a cgpa of 9.25 in all sems appeared in so far
+                time: 'Oct 19 - Oct 20', //timespan
+                title: 'Master economist', //eg. BTech in Compuster Engineering
+                organization: 'Faculty of Economics in Subotica – Department of the Faculty in Novi Sad', //eg. VJTI, Mumbai
+                description: 'specialization: Business Information Systems (average grade 8.71)' //eg. secured a cgpa of 9.25 in all sems appeared in so far
             },
             {
-                time: 'May - Oct 2020',
-                title: 'Degree name',
-                organization: 'School Name',
-                description: 'Lorem ipsum dolor sit amet consectetur'
+                time: 'Sep 14 - Sep 18',
+                title: 'Bachelor of Economics and Financial Service Officer',
+                organization: 'University of Defense, Military Academy in Belgrade',
+                description: 'specialization: Public Finance (average grade 9.67)'
             },
             {
-                time: 'May - Oct 2020',
-                title: 'Degree name',
-                organization: 'School Name',
-                description: 'Lorem ipsum dolor sit amet consectetur'
+                time: 'Sep 10 - Jul 14',
+                title: 'Economist',
+                organization: 'School of Economics and Trade in Kikinda',
+                description: 'specialization: Financial administrator '
             },
         ],
     },
@@ -74,24 +75,24 @@ export const userinfo = {
         visible: true, //set this to false if you want to omit this section
         experienceList: [
             {
-                company: 'Dunder Mifflin', //company name eg.Microsoft
-                companylogo: 'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/why-did-steve-carell-leave-the-office-1585597666.jpg?crop=0.563xw:0.844xh;0.287xw,0.128xh&resize=480:*', //companylogo
-                position: 'Regional Manager', //post you held eg.Senior SDE
-                time: 'March 2020 - May 2020', //timespan
+                company: 'Ministry of Defense', //company name eg.Microsoft
+                companylogo: 'https://pistaljka.rs/public/galleries/249-lead-photo-1342522620-ministarstvo-odbrane.jpg', //companylogo
+                position: 'Financial Management Officer', //post you held eg.Senior SDE
+                time: 'Sep 2018 - April 2022', //timespan
                 description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum' //eg. spearheaded the graphics team in designing SASS product UIs
             },
             {
-                company: 'Dunder Mifflin',
-                companylogo: 'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/why-did-steve-carell-leave-the-office-1585597666.jpg?crop=0.563xw:0.844xh;0.287xw,0.128xh&resize=480:*',
-                position: 'Regional Manager',
-                time: 'March 2020 - May 2020',
+                company: 'Carmine Cloak',
+                companylogo: 'https://media-exp1.licdn.com/dms/image/C4E0BAQHAFzXpdnmnYg/company-logo_200_200/0/1639503969267?e=2147483647&v=beta&t=65G0mGEYUnV170uAbHfP0rcYV49OefuvclyRRSD6AVw',
+                position: 'CEO and FE developer',
+                time: 'May 2022 - today',
                 description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum'
             },
             {
-                company: 'Dunder Mifflin',
-                companylogo: 'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/why-did-steve-carell-leave-the-office-1585597666.jpg?crop=0.563xw:0.844xh;0.287xw,0.128xh&resize=480:*',
-                position: 'Regional Manager',
-                time: 'March 2020 - May 2020',
+                company: 'Disruptive Gate',
+                companylogo: image.src,
+                position: 'CEO and FE developer (part-time job)',
+                time: 'May 2022 - today',
                 description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum'
             },
         ],
