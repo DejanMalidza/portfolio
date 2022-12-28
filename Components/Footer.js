@@ -13,7 +13,7 @@ const Footer = ({ currentTheme }) => {
                         userinfo.socials.map((social, key) => {
                             return (
                                 <Link href={social.link} key={key}><a target="_blank"><li>{social.type}</li></a></Link>
-                            )
+                            ) 
                         }) : null
                     }
                     <Link href={`mailto:${userinfo.contact.email ? userinfo.contact.email : 'dejanmalidza@gmail.com'}`}><a><li>Mail</li></a></Link>
