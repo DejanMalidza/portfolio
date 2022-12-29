@@ -31,7 +31,7 @@ export const projects = [
         photo: [PROJECT2_1, PROJECT2_2],
     },
     {
-        name: 'DISRUPTIVE GATE - in process',
+        name: 'Disruptive Gate - in process',
         description: 'An instance for our regular site in wordpress https://www.disruptivegate.com/ only this time with the application of new technologies. The site is under construction, and will display part of the NFT museum we have already created, with an emphasis on NFT transactions, advertising, rankings, and auctions.',
         githubLink: '/',
         projectLink: 'https://project-lkgq21svl-haelfproject-gmailcom.vercel.app/',

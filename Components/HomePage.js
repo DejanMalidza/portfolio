@@ -14,7 +14,10 @@ const HomePage = ({ currentTheme }) => {
             <div className={styles.homeheading} style={{ backgroundColor: currentTheme.secondary }}>
                 <h1 className={styles.heading}>{userinfo.greeting.title}</h1>
                 <h2 className={styles.subheading} style={{ color: currentTheme.subtext }}>{userinfo.greeting.subtitle}</h2>
-                <Link href="#work"><a className={styles.cta1} style={{ backgroundColor: currentTheme.accent, color: currentTheme.contrastText, boxShadow: currentTheme.boxShadow }}>{ctaTexts.landingCTA}</a></Link>
+                <div style={{display: "inline-block", paddingTop: "30px"}}>
+                <Link href="#work"><a className={styles.cta1} style={{ backgroundColor: currentTheme.accent, color: currentTheme.contrastText, boxShadow: currentTheme.boxShadow, marginRight: "10px" }}>{ctaTexts.landingCTA}</a></Link>
+                <Link href="/CV.pdf"><a target="_blank" className={styles.cta1} style={{ backgroundColor: currentTheme.accent, color: currentTheme.contrastText, boxShadow: currentTheme.boxShadow, marginLeft: "10px" }}>My CV</a></Link>
+                </div>
             </div>
             <div className={styles.homeWorkSection} id="work">
                 <h1 className={styles.workheading} data-aos="fade-up">{headings.workHomePage}</h1>
