@@ -31,7 +31,7 @@ export const projects = [
     description:
       "The application is intended for booking trips on the beautiful Croatian coast in the city of Makarska. It is also intended for all people who own apartments in that region to become partners of the company.",
     githubLink: "",
-    projectLink: "https://makarska-exklusiv.com/wp/",
+    projectLink: "https://makarska-exklusiv.com",
     tech: ["Wordpress", "PHP", "SEO"],
     photo: [PROJECT3_1, PROJECT3_2, PROJECT3_3],
   },
