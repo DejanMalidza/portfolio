@@ -24,7 +24,7 @@ export const userinfo = {
     //more icons are imported above, use as you like them.
     {
       type: "github",
-      link: "https://github.com/DejanMalidza",
+      link: "https://github.com/",
       icon: faGithubAlt,
     },
     {
