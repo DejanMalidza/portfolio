@@ -72,7 +72,7 @@ export const userinfo = {
   about: {
     //this text goes at the bottom of your home page.
     content:
-      "I think I'm good, but I'm definitely an enterprising person. I try to be positive, as much as today's time allows, but because of that I put a lot of emphasis on good interpersonal relationships. I am punctual and a perfectionist. If I get a chance and trust, I know how to use it in the best possible way. I always try to do my job right and I am ready to listen to everyone's problems, both private and business. In my opinion, if you are surrounded by good people any job will get done.",
+      "I believe that I am a highly enterprising individual who strives to maintain a positive outlook, even in the midst of challenging circumstances. I place great importance on building strong interpersonal relationships and consider myself punctual and detail-oriented. When given the opportunity and trust, I am confident in my ability to make the most of it and achieve great results. I am committed to performing my duties to the best of my ability and am always willing to lend an ear to anyone, whether they have personal or professional concerns. Ultimately, I believe that success is best achieved through teamwork and collaboration, and that a supportive network of individuals can make any project a success.",
     resume: "/", //link your resume here. it can be drive link or any other link
   },
   education: {
