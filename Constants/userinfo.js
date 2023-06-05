@@ -42,7 +42,7 @@ export const userinfo = {
     //this text goes on your landing page
     title: "Hey there, I am Dejan.",
     subtitle:
-      "I am CEO at Carmine Cloak DOO, which provides design and programming services. In addition to managerial work, I perform tasks related to front-end development.",
+      "I am Project Manager at Carmine Cloak DOO, which provides design and programming services. In addition to managerial work, I perform tasks related to Front-End development.",
   },
   capabilities: [
     //this text goes on your home page in table format.
@@ -117,14 +117,14 @@ export const userinfo = {
         companylogo:
           "https://media-exp1.licdn.com/dms/image/C4E0BAQHAFzXpdnmnYg/company-logo_200_200/0/1639503969267?e=2147483647&v=beta&t=65G0mGEYUnV170uAbHfP0rcYV49OefuvclyRRSD6AVw",
         position: "CEO and FE developer",
-        time: "May 2022 - today",
+        time: "April 2022 - today",
         description: `Management of all projects in the field of web design and programming in the company; Making management and financial decisions and cooperation with clients; Project implementation monitoring and use of the following tools: GitHub, GitHubDesktop, Jira, Vercel, Trello, GA4, GTM; Programming and usage: React, Next.js, Wordpress, JavaScript; Good knowledge of: Node.js, PHP, MongoDB, SEO tools.`,
       },
       {
         company: "Disruptive Gate",
         companylogo: image.src,
         position: "CEO and FE developer (part-time job)",
-        time: "May 2022 - today",
+        time: "May 2022 - September 2022",
         description:
           "Project management in the field of web3 programming; Creating a project plan for the development of Disruptive Gate and our NFT museum; Preparation of Front-end logic in React for connection with web3 technology, especially for linking smart contracts written in solidity programming language.",
       },

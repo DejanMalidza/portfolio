@@ -41,7 +41,7 @@ export const projects = [
       "With their approach, licensed vet doctors analyze the medical information around pet, diagnose their symptoms and then create & prescribe custom treatment plans specifically for pets. While scientific research is integral to each treatment they provide, their utilitarian platform ensures pet gains the best possible health with ease.",
     githubLink: "",
     projectLink: "https://paelf.com",
-    tech: ["Next.js", "React", "Node.js"],
+    tech: ["Next.js", "Node.js", "MongoDB"],
     photo: [PROJECT2_1, PROJECT2_2],
   },
   {
