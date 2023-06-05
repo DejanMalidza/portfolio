@@ -116,17 +116,17 @@ export const userinfo = {
         company: "Carmine Cloak",
         companylogo:
           "https://media-exp1.licdn.com/dms/image/C4E0BAQHAFzXpdnmnYg/company-logo_200_200/0/1639503969267?e=2147483647&v=beta&t=65G0mGEYUnV170uAbHfP0rcYV49OefuvclyRRSD6AVw",
-        position: "CEO and FE developer",
+        position: "IT Project Manager and FE developer",
         time: "April 2022 - today",
         description: `Management of all projects in the field of web design and programming in the company; Making management and financial decisions and cooperation with clients; Project implementation monitoring and use of the following tools: GitHub, GitHubDesktop, Jira, Vercel, Trello, GA4, GTM; Programming and usage: React, Next.js, Wordpress, JavaScript; Good knowledge of: Node.js, PHP, MongoDB, SEO tools.`,
       },
       {
         company: "Disruptive Gate",
         companylogo: image.src,
-        position: "CEO and FE developer (part-time job)",
+        position: "IT Project Manager and FE developer (part-time job)",
         time: "May 2022 - September 2022",
         description:
-          "Project management in the field of web3 programming; Creating a project plan for the development of Disruptive Gate and our NFT museum; Preparation of Front-end logic in React for connection with web3 technology, especially for linking smart contracts written in solidity programming language.",
+          "Project management in the field of web3 programming; Creating a project plan for the development of Disruptive Gate and our NFT museum; Preparation of Front-End logic in React for connection with web3 technology, especially for linking smart contracts written in solidity programming language.",
       },
     ],
   },
