@@ -42,14 +42,14 @@ export const userinfo = {
     //this text goes on your landing page
     title: "Hey there, I am Dejan.",
     subtitle:
-      "I am Project Manager at Carmine Cloak DOO, which provides design and programming services. In addition to managerial work, I perform tasks related to Front-End development.",
+      "I am a Consultant for the SAP Business One Information System, which represents an affordable ERP solution for managing entire company. I have over 6 years of experience in Finance, IT, Project Management, and Programming. Additionally, in my spare time, I work as a part-time Front End Developer.",
   },
   capabilities: [
     //this text goes on your home page in table format.
     //For aesthetics, it is advisable for you to mention upto 4 catgeories links only.
     //For aesthetics, it is advisable for you to keep similar number of skills in each category
     {
-      category: "Manager", // eg.frontend, backend, devops etc
+      category: "Project Management", // eg.frontend, backend, devops etc
       skills: ["Good Organisation", "Comprehension", "Adaptive To Changes"], //eg. react, html, python etc.
     },
     {
@@ -57,16 +57,16 @@ export const userinfo = {
       skills: ["JavaScript", "React", "Next.js", "Wordpress"],
     },
     {
-      category: "Finance Analyst",
+      category: "Finance",
       skills: [
         "Presentation Skills",
         "Accounting Skills",
-        "Financial Literacy skills",
+        "Financial Literacy Skills",
       ],
     },
     {
-      category: "Other Skills",
-      skills: ["Web3", "Node.js", "MongoDB", "SEO Optimization"],
+      category: "ERP Consultant",
+      skills: ["SAP Business One", "SQL Query", "Crystal Reports", "Power BI"],
     },
   ],
   about: {
@@ -117,16 +117,16 @@ export const userinfo = {
         companylogo:
           "https://media-exp1.licdn.com/dms/image/C4E0BAQHAFzXpdnmnYg/company-logo_200_200/0/1639503969267?e=2147483647&v=beta&t=65G0mGEYUnV170uAbHfP0rcYV49OefuvclyRRSD6AVw",
         position: "IT Project Manager and FE developer",
-        time: "April 2022 - today",
+        time: "April 2022 - June 2023",
         description: `Management of all projects in the field of web design and programming in the company; Making management and financial decisions and cooperation with clients; Project implementation monitoring and use of the following tools: GitHub, GitHubDesktop, Jira, Vercel, Trello, GA4, GTM; Programming and usage: React, Next.js, Wordpress, JavaScript; Good knowledge of: Node.js, PHP, MongoDB, SEO tools.`,
       },
       {
-        company: "Disruptive Gate",
+        company: "B-ONE Solutions",
         companylogo: image.src,
-        position: "IT Project Manager and FE developer (part-time job)",
-        time: "May 2022 - September 2022",
+        position: "SAP Business One Consultant",
+        time: "Oktober 2023 - today",
         description:
-          "Project management in the field of web3 programming; Creating a project plan for the development of Disruptive Gate and our NFT museum; Preparation of Front-End logic in React for connection with web3 technology, especially for linking smart contracts written in solidity programming language.",
+          "Working as a consultant for all modules of the SAP B1 information system, which represents a comprehensive ERP solution for companies with up to 1.000 users; Handling support and maintenance tasks for the SAP B1 system for existing users; Participating in the processes of software implementation and integration according to the needs of new users, performing testing and employee training.",
       },
     ],
   },

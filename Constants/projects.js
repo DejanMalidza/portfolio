@@ -11,6 +11,10 @@ import PROJECT3_3 from "../styles/projects/Project3_3.png";
 // import PROJECT3_3 from '../styles/projects/Project3_3.jpg';
 import PROJECT4_1 from "../styles/projects/Project4_1.png";
 import PROJECT4_2 from "../styles/projects/Project4_2.png";
+import PROJECT5_1 from "../styles/projects/Project5_1.png";
+import PROJECT5_2 from "../styles/projects/Project5_2.png";
+import PROJECT6_1 from "../styles/projects/Project6_1.png";
+import PROJECT6_2 from "../styles/projects/Project6_2.png";
 
 // first 3 projects are visible on the homepage while all are visible on the work page.
 
@@ -34,6 +38,24 @@ export const projects = [
     projectLink: "https://makarska-exklusiv.com",
     tech: ["Wordpress", "PHP", "SEO"],
     photo: [PROJECT3_1, PROJECT3_2, PROJECT3_3],
+  },
+  {
+    name: "MAKS-DENT",
+    description:
+      "The MAX-DENT dental office is modernly equipped and designed to provide maximum comfort and the highest level of dental care.",
+    githubLink: "",
+    projectLink: "https://maks-dent.com/",
+    tech: ["Wordpress", "SEO"],
+    photo: [PROJECT6_1, PROJECT6_2],
+  },
+  {
+    name: "Nano Eterna",
+    description:
+      "E-commerce web store that sells cosmetic products based on nanotechnology.",
+    githubLink: "",
+    projectLink: "https://nanoeterna.com/",
+    tech: ["Wordpress", "E-commerce"],
+    photo: [PROJECT5_1, PROJECT5_2],
   },
   {
     name: "Paelf - in process",
