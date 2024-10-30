@@ -42,7 +42,7 @@ export const userinfo = {
     //this text goes on your landing page
     title: "Hey there, I am Dejan.",
     subtitle:
-      "I am a Consultant for the SAP Business One Information System, which represents an affordable ERP solution for managing entire company. I have over 6 years of experience in Finance, IT, Project Management, and Programming. Additionally, in my spare time, I work as a part-time Front End Developer.",
+      "I am a Consultant for the SAP Business One Information System, which represents an affordable ERP solution for managing entire company. I have over 6 years of experience in Finance, IT, Project Management and Programming. Additionally, in my spare time, I work as a part-time Front End Developer.",
   },
   capabilities: [
     //this text goes on your home page in table format.
