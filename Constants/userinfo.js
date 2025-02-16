@@ -70,7 +70,7 @@ export const userinfo = {
     },
   ],
   about: {
-    //this text goes at the bottom of your home page.
+    //this text goes at the bottom of your home page s.
     content:
       "I believe that I am a highly enterprising individual who strives to maintain a positive outlook, even in the midst of challenging circumstances. I place great importance on building strong interpersonal relationships and consider myself punctual and detail-oriented. When given the opportunity and trust, I am confident in my ability to make the most of it and achieve great results. I am committed to performing my duties to the best of my ability and am always willing to lend an ear to anyone, whether they have personal or professional concerns. Ultimately, I believe that success is best achieved through teamwork and collaboration, and that a supportive network of individuals can make any project a success.",
     resume: "/", //link your resume here. it can be drive link or any other link
