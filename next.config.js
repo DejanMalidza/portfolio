@@ -6,6 +6,6 @@ module.exports = {
       "miro.medium.com",
       "res.cloudinary.com",
     ],
-    disableStaticImages: true,
+    disableStaticImages: false,
   },
 };
