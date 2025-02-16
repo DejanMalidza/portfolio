@@ -53,7 +53,7 @@ export const userinfo = {
       skills: ["Good Organisation", "Comprehension", "Adaptive To Changes"], //eg. react, html, python etc.
     },
     {
-      category: "Frontend",
+      category: "Front-End",
       skills: ["JavaScript", "React", "Next.js", "Wordpress"],
     },
     {
@@ -117,14 +117,14 @@ export const userinfo = {
         companylogo:
           "https://media-exp1.licdn.com/dms/image/C4E0BAQHAFzXpdnmnYg/company-logo_200_200/0/1639503969267?e=2147483647&v=beta&t=65G0mGEYUnV170uAbHfP0rcYV49OefuvclyRRSD6AVw",
         position: "IT Project Manager and FE developer",
-        time: "April 2022 - June 2023",
+        time: "April 2022 - August 2023",
         description: `Management of all projects in the field of web design and programming in the company; Making management and financial decisions and cooperation with clients; Project implementation monitoring and use of the following tools: GitHub, GitHubDesktop, Jira, Vercel, Trello, GA4, GTM; Programming and usage: React, Next.js, Wordpress, JavaScript; Good knowledge of: Node.js, PHP, MongoDB, SEO tools.`,
       },
       {
         company: "B-ONE Solutions",
         companylogo: image.src,
         position: "SAP Business One Consultant",
-        time: "Oktober 2023 - today",
+        time: "August 2023 - today",
         description:
           "Working as a consultant for all modules of the SAP B1 information system, which represents a comprehensive ERP solution for companies with up to 1.000 users; Handling support and maintenance tasks for the SAP B1 system for existing users; Participating in the processes of software implementation and integration according to the needs of new users, performing testing and employee training.",
       },
