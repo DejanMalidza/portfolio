@@ -15,7 +15,7 @@
     "url": ""
   },
   "engines": {
-    "node": "16.x"
+    "node": "22.x"
   },
   "keywords": [
     "portfolio",
@@ -25,6 +25,7 @@
     "fully customisable"
   ],
   "dependencies": {
+    "22": "^0.0.0",
     "@chakra-ui/icons": "^1.0.13",
     "@chakra-ui/react": "^1.6.4",
     "@emotion/react": "^11.4.0",
