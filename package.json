@@ -25,6 +25,7 @@
     "fully customisable"
   ],
   "dependencies": {
+    "18": "^0.0.0",
     "22": "^0.0.0",
     "@chakra-ui/icons": "^1.0.13",
     "@chakra-ui/react": "^1.6.4",
